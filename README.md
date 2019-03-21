@@ -4,6 +4,9 @@ Universal non-covalent interaction correction to DFT from machine learning
 Install the QML code:
 http://www.qmlcode.org/installation.html
 
+Uncompress the dft-nci.tar.gz file:
+"tar -xvf dft-nci.tar.gz"
+
 Modify the dft-nci.py file:
 
 Required modifications:
@@ -36,4 +39,4 @@ Include more atoms in the dictionary, or increase the size of the representation
 "max_size=155", "neighbors=429"
 
 Run the code:
-python dft-nci.py
+"python dft-nci.py"
